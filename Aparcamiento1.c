@@ -9,7 +9,7 @@ int main() {
 	time_t curtime=time(NULL);
 	time_t s_t_aparc1,e_t_aparc1,s_t_aparc2, e_t_aparc2,t_1,t_2;
 	char str[26];
-	system("color <7> <3>");
+	system("COLOR B1 ");
 	while (1) {
 		ctime_s(str,sizeof str,&curtime);
 		system("cls");
