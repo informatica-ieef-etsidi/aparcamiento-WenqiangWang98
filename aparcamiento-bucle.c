@@ -96,20 +96,35 @@ int main(){
                 }
                 break;
             case 3:
-                for(e=0;e<=N-1;e++){
-                    printf("plaza %d - ",e+1);
-                    if(plaza[e].estado==0){
-                        printf("Libre.\n");
-                    }
-                    else {
-                        if(plaza[e].tipo==1){
-                            printf("Moto - ");
-                        }else{
-                            printf("Coche - ");
-                        }
-                        printf("%s.\n",plaza[e].matricula);
-                    }
-                }
+                for (e = 0;e <= N - 1;e++) {
+
+				printf("plaza %d - ", e + 1);
+				if (plaza[e].tipo == 1) {
+
+					printf("Moto - ");
+
+				}
+				else {
+
+					printf("Coche - ");
+
+				}
+
+				if (plaza[e].estado == 0) {
+
+					printf("Libre.\n");
+
+				}
+
+				else {
+
+					
+
+					printf("%s.\n", plaza[e].matricula);
+
+				}
+
+			}
                 break;
             case 4:
                 printf("Introduce la matricula del vehiculo que quieres buscar.\n");
