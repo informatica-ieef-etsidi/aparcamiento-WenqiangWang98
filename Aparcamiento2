@@ -1,9 +1,9 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>//Aparcamiento2
 #include<stdlib.h>
 #include<string.h>
 #include<time.h>
 #define N 4
-#define _CRT_SECURE_NO_WARNINGS
 struct plazas{
     int estado;//0 si esta libre y 1 si esta ocupado
     int tipo; //1 para moto y 2 para coche
